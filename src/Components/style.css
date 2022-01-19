@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+ font-family: "Mulish", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    margin: 56px 266px 0px 266px;
+}
+
+.nav-center {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-log {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-log h6 {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #233348;
+}
+
+.nav-log button {
+    width: 41px;
+    height: 41px;
+    background: #FFBD37;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    border: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+ul li a {
+    font-weight: normal;
+    font-size: 18px;
+    color: #7D7987;
+}
+
+ul li .product {
+    color: #233348;
+}
+
+/* Hero */
+
+.hero {
+    margin: 56px 266px 0px 266px;
+}
